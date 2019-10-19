@@ -72,6 +72,7 @@ Other Style Guides
     - `undefined`
     - `symbol`
 
+
     ```javascript
     const foo = 1;
     let bar = foo;
@@ -79,6 +80,7 @@ Other Style Guides
     bar = 9;
 
     console.log(foo, bar); // => 1, 9
+    
     ```
 
     - Symbols cannot be faithfully polyfilled, so they should not be used when targeting browsers/environments that don’t support them natively.
@@ -90,6 +92,7 @@ Other Style Guides
     - `array`
     - `function`
 
+
     ```javascript
     const foo = [1, 2];
     const bar = foo;
@@ -97,6 +100,7 @@ Other Style Guides
     bar[0] = 9;
 
     console.log(foo[0], bar[0]); // => 9, 9
+    
     ```
 
 **[⬆ back to top](#table-of-contents)**
